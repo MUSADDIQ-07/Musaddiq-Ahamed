@@ -1,0 +1,19 @@
+This is a Java program that implements a job scheduling algorithm to maximize earnings.
+The program takes input from the user in the form of start time, end time, and earnings for each job. 
+It then sorts the jobs by end time and calculates the maximum profit that Lokesh can earn by choosing 
+the jobs with the highest earnings and non-overlapping end times. Finally, the program calculates the number of tasks and earnings left for others.
+
+The program uses a two-dimensional array to store the jobs and a Scanner object to read input from the user. 
+The Arrays.sort() method is used to sort the jobs by end time. A for loop is used to iterate over the sorted jobs and calculate the maximum profit 
+that Lokesh can earn by choosing the jobs with the highest earnings and non-overlapping end times.
+ A separate counter is used to keep track of the number of tasks and earnings left for others.
+
+User Input format :
+
+ Enter THe Number Of Jobs (Input a integer Value)
+  Start Time, End Time, Earnings
+  Start Time:(Should be in HHMM if time is  09:30AM the it should written in 0930)
+  End Time  :(Should be in HHMM if time is  09:30PM the it should written in 2130)
+  Earnings:(Input a integer Value)
+
+The program outputs the number of tasks and earnings available for others.
